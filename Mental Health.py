@@ -161,7 +161,7 @@ ax = new_df.plot(x="Course", y="Has Mental Health Issues", kind="barh", color = 
 
 new_df.plot(x="Course", y="No Mental Health Issues", kind="barh", ax=ax, color = 'steelblue')
 plt.title('Count of Students with MH Issues')
-
+#graphs for my model
 plt.figure(figsize=(10,10))
 sns.countplot(df['Your current year of Study'],hue=df['gender'])
 plt.title("Students studyig in particular year");
